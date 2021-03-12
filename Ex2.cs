@@ -8,7 +8,7 @@ namespace exercise
     {
         public static void ex2()
         {
-           Regex re = new Regex(@".*[c].*",RegexOptions.IgnoreCase);
+           Regex re = new Regex(@"[c]",RegexOptions.IgnoreCase);
            
            String[] names = {"aaa", "bbb", "ccc", "Mary", "Tom"};
            
